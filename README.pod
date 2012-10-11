@@ -1,0 +1,34 @@
+=pod
+
+=head1 NAME
+
+Lingua::Alphabet::Phonetic::LAPD - map ABS's to the LAPD phonetic letter names
+
+=head1 VERSION
+
+version 0.01
+
+=head1 SYNOPSIS
+
+ use Lingua::Alphabet::Phonetic;
+ my $phonetic = Lingua::Alphabet::Phonetic('LAPD');
+ # prints One-Adam-OneTwo
+ print $phonetic->enunciate("1-A-12");
+
+=head1 DESCRIPTION
+
+This is a specialization of L<Lingua::Alphabet::Phonetic>.
+You do not use this module directly.  All interaction
+should be through an L<Lingua::Alphabet::Phonetic>.
+
+=head1 AUTHOR
+
+Graham Ollis <perl@wdlabs.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2012 by Graham Ollis.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
