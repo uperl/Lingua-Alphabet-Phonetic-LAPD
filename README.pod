@@ -33,6 +33,9 @@ for L::A::P years ago for a gimmick on my website.  Recently
 I was watching Adam-12 on Netflix and decided this was a sign
 that this module should be shared.
 
+Unfortunately 1-A-12 comes back as 1-Adam-OneTwo instead of
+1-Adam-Twelve.
+
 =head1 AUTHOR
 
 Graham Ollis <perl@wdlabs.com>

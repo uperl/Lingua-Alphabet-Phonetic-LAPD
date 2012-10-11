@@ -14,7 +14,7 @@ Paul Queen Robert Sam Tom Union Victor William
 X-ray Young Zebra Zero One Two Three Four Five 
 Six Seven Eight Nine
 );
-my %hash = map { $_ => @asAlphabet } ('a'..'z', 0..9);
+my %hash = map { $_ => shift @asAlphabet } ('a'..'z', 0..9);
 
 sub _name_of_letter
   {
@@ -57,5 +57,8 @@ I wrote this module along with a number of other back ends
 for L::A::P years ago for a gimmick on my website.  Recently
 I was watching Adam-12 on Netflix and decided this was a sign
 that this module should be shared.
+
+Unfortunately 1-A-12 comes back as 1-Adam-OneTwo instead of
+1-Adam-Twelve.
 
 =cut
