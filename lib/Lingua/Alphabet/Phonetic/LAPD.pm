@@ -42,8 +42,20 @@ __END__
 
 =head1 DESCRIPTION
 
+This module provides for L<Lingua::Alphabet::Phonetic>
+the LAPD phonetic alphabet used by the Los Angeles Police
+Department (LAPD) and other local state law enforcement
+agencies across the state of California.
+
 This is a specialization of L<Lingua::Alphabet::Phonetic>.
 You do not use this module directly.  All interaction
 should be through an L<Lingua::Alphabet::Phonetic>.
+
+=head1 INSPIRATION
+
+I wrote this module along with a number of other back ends
+for L::A::P years ago for a gimmick on my website.  Recently
+I was watching Adam-12 on Netflix and decided this was a sign
+that this module should be shared.
 
 =cut
