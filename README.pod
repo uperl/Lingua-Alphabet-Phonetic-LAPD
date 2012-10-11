@@ -38,7 +38,7 @@ Unfortunately 1-A-12 comes back as 1-Adam-OneTwo instead of
 
 =head1 AUTHOR
 
-Graham Ollis <perl@wdlabs.com>
+Graham Ollis <plicease@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
