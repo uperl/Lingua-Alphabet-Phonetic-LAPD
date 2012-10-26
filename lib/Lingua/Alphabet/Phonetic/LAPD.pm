@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use base 'Lingua::Alphabet::Phonetic';
 
-# ABSTRACT: map ABS's to the LAPD phonetic letter names
+# ABSTRACT: map ABC's to the LAPD phonetic letter names
 # VERSION
 
 my @asAlphabet = qw(

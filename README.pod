@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-Lingua::Alphabet::Phonetic::LAPD - map ABS's to the LAPD phonetic letter names
+Lingua::Alphabet::Phonetic::LAPD - map ABC's to the LAPD phonetic letter names
 
 =head1 VERSION
 

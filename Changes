@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - fix typo in abstract
 
 0.01      2012-10-11 09:52:21 EST5EDT
   - initial version
