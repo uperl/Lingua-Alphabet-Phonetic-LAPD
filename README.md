@@ -1,32 +1,26 @@
-=pod
+# Lingua::Alphabet::Phonetic::LAPD [![Build Status](https://secure.travis-ci.org/plicease/Lingua-Alphabet-Phonetic-LAPD.png)](http://travis-ci.org/plicease/Lingua-Alphabet-Phonetic-LAPD)
 
-=head1 NAME
+map ABC's to the LAPD phonetic letter names
 
-Lingua::Alphabet::Phonetic::LAPD - map ABC's to the LAPD phonetic letter names
+# SYNOPSIS
 
-=head1 VERSION
+    use Lingua::Alphabet::Phonetic;
+    my $phonetic = Lingua::Alphabet::Phonetic('LAPD');
+    # prints One-Adam-OneTwo
+    print $phonetic->enunciate("1-A-12");
 
-version 0.02
+# DESCRIPTION
 
-=head1 SYNOPSIS
-
- use Lingua::Alphabet::Phonetic;
- my $phonetic = Lingua::Alphabet::Phonetic('LAPD');
- # prints One-Adam-OneTwo
- print $phonetic->enunciate("1-A-12");
-
-=head1 DESCRIPTION
-
-This module provides for L<Lingua::Alphabet::Phonetic>
+This module provides for [Lingua::Alphabet::Phonetic](http://search.cpan.org/perldoc?Lingua::Alphabet::Phonetic)
 the LAPD phonetic alphabet used by the Los Angeles Police
 Department (LAPD) and other local state law enforcement
 agencies across the state of California.
 
-This is a specialization of L<Lingua::Alphabet::Phonetic>.
+This is a specialization of [Lingua::Alphabet::Phonetic](http://search.cpan.org/perldoc?Lingua::Alphabet::Phonetic).
 You do not use this module directly.  All interaction
-should be through an L<Lingua::Alphabet::Phonetic>.
+should be through an [Lingua::Alphabet::Phonetic](http://search.cpan.org/perldoc?Lingua::Alphabet::Phonetic).
 
-=head1 INSPIRATION
+# INSPIRATION
 
 I wrote this module along with a number of other back ends
 for L::A::P years ago for a gimmick on my website.  Recently
@@ -36,14 +30,13 @@ that this module should be shared.
 Unfortunately 1-A-12 comes back as 1-Adam-OneTwo instead of
 1-Adam-Twelve.
 
-=head1 AUTHOR
+# AUTHOR
 
 Graham Ollis <plicease@cpan.org>
 
-=head1 COPYRIGHT AND LICENSE
+# COPYRIGHT AND LICENSE
 
 This software is copyright (c) 2012 by Graham Ollis.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
-
