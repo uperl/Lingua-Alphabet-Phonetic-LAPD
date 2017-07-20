@@ -11,14 +11,14 @@ map ABC's to the LAPD phonetic letter names
 
 # DESCRIPTION
 
-This module provides for [Lingua::Alphabet::Phonetic](http://search.cpan.org/perldoc?Lingua::Alphabet::Phonetic)
+This module provides for [Lingua::Alphabet::Phonetic](https://metacpan.org/pod/Lingua::Alphabet::Phonetic)
 the LAPD phonetic alphabet used by the Los Angeles Police
 Department (LAPD) and other local state law enforcement
 agencies across the state of California.
 
-This is a specialization of [Lingua::Alphabet::Phonetic](http://search.cpan.org/perldoc?Lingua::Alphabet::Phonetic).
+This is a specialization of [Lingua::Alphabet::Phonetic](https://metacpan.org/pod/Lingua::Alphabet::Phonetic).
 You do not use this module directly.  All interaction
-should be through an [Lingua::Alphabet::Phonetic](http://search.cpan.org/perldoc?Lingua::Alphabet::Phonetic).
+should be through an [Lingua::Alphabet::Phonetic](https://metacpan.org/pod/Lingua::Alphabet::Phonetic).
 
 # INSPIRATION
 
