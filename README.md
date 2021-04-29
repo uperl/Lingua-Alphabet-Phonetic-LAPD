@@ -1,13 +1,15 @@
-# Lingua::Alphabet::Phonetic::LAPD [![Build Status](https://secure.travis-ci.org/plicease/Lingua-Alphabet-Phonetic-LAPD.png)](http://travis-ci.org/plicease/Lingua-Alphabet-Phonetic-LAPD)
+# Lingua::Alphabet::Phonetic::LAPD [![Build Status](https://travis-ci.org/uperl/Lingua-Alphabet-Phonetic-LAPD.svg?branch=main)](https://travis-ci.org/uperl/Lingua-Alphabet-Phonetic-LAPD) ![linux](https://github.com/uperl/Lingua-Alphabet-Phonetic-LAPD/workflows/linux/badge.svg) ![macos](https://github.com/uperl/Lingua-Alphabet-Phonetic-LAPD/workflows/macos/badge.svg)
 
 map ABC's to the LAPD phonetic letter names
 
 # SYNOPSIS
 
-    use Lingua::Alphabet::Phonetic;
-    my $phonetic = Lingua::Alphabet::Phonetic('LAPD');
-    # prints One-Adam-OneTwo
-    print $phonetic->enunciate("1-A-12");
+```perl
+use Lingua::Alphabet::Phonetic;
+my $phonetic = Lingua::Alphabet::Phonetic('LAPD');
+# prints One-Adam-OneTwo
+print $phonetic->enunciate("1-A-12");
+```
 
 # DESCRIPTION
 
