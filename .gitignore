@@ -1,2 +1,5 @@
 /Lingua-Alphabet-Phonetic-LAPD-*
 *.swp
+/.build
+*.old
+*.orig
